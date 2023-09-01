@@ -1,0 +1,21 @@
+nav {
+    display: flex;
+    background-color: blue;
+    justify-content: space-between;
+
+
+
+}
+a {
+    color: cyan;
+    justify-content: space-between;
+}
+
+
+/*.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+  }*/
+
