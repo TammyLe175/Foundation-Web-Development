@@ -1,0 +1,53 @@
+
+nav ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: rgb(255, 0, 0);
+}
+
+.image {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+img {
+    height: 500px;
+    width: auto;
+}
+div {
+    display: flex;
+    flex-direction: row; 
+    justify-content: space-between;
+    width: auto;
+    
+}
+.pa-1 {
+    background-color: aqua;
+    
+    
+}
+.pa-2 {
+    background-color: pink;
+    
+}
+
+
+@media screen and (max-width: 600px) {
+    .image {
+        display: flex;
+        flex-direction: column;
+    }
+    nav ul {
+        display: flex;
+        flex-direction: column;
+    }
+    .bottom {
+        display: none;
+    }
+    div {
+        display: flex;
+        flex-direction: column;
+    }
+}
