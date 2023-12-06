@@ -1,0 +1,536 @@
+body {
+    background-color: #b4daa7;
+    
+
+}
+header {
+    height: 125px;
+    width: 100vw;
+    padding-top: 0;
+    position: relative;
+    left: 50%;
+    right: 50%;
+    margin-left: -50vw;
+    margin-right: -50vw;
+}
+nav {
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+    padding-top: 20px;
+}
+nav > a {
+    display: flex;
+    justify-content: space-between;
+    padding-right: 25px;
+    text-decoration: none;
+    color: black;
+    
+}
+.buttons {
+    display: flex; 
+    justify-content: flex-start;
+    flex-direction: column;
+}
+.buttons > ol {
+    display: flex;
+    flex-direction: row;
+    list-style-type: none; 
+    justify-content: space-evenly; 
+    padding: 0;
+}
+.buttons > ol > li > a {
+    height: 25px;
+    width: 80px;
+    background-color: #b4daa7;
+    font-size: large;
+    font-weight: bold;
+    text-decoration: none;
+    color: black;
+}
+
+.section1 {
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row; 
+    height: 400px;
+    width: 100vw;
+    padding-top: 0;
+    position: relative;
+    left: 50%;
+    right: 50%;
+    margin-left: -50vw;
+    margin-right: -50vw;   
+}
+.introduction1 {
+    margin-left: 30px;
+    padding-top: 80px;
+}
+#myImage1 {
+    width: 300px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-right: 10px;
+}
+.section2 {
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row;
+    background-color: lightgoldenrodyellow;
+    height: 400px;
+    width: 100vw;
+    padding-top: 0;
+    position: relative;
+    left: 50%;
+    right: 50%;
+    margin-left: -50vw;
+    margin-right: -50vw;
+}
+.introduction2 > h1 {
+    padding-top: 50px;
+}
+#myImage2 {
+    width: 200px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-left: 10px;
+    margin-right: 10px;    
+}
+.card1-container {
+    background-color: lightblue;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.card2-container {
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.card3-container {
+    background-color: yellow;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.card4-container {
+    background-color: lightpink;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.footer1 {
+    height: 100px;
+    width: 100vh;
+}
+.footerContent-2 {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.footerContent-2 > h3 {
+    display: flex;
+    justify-content: center;
+    padding-top: 20px;
+    margin-bottom: 0;
+}
+.footerContent-2 > h4 {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 0;
+}
+.footerContent-2 > p {
+    display: flex;
+    justify-content: center;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+.footerContent-2 > nav {
+    display: flex;
+    justify-content: center;
+}
+@media only screen and (min-width: 769px) {
+    .slider {
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-start;
+        margin: 10px;
+    }
+    .slider > div {
+        flex-grow: 1;
+    }
+    
+}
+/* Page 2: About */
+.body-about-page {
+    overflow-x: hidden;
+}
+.headerAbout {
+    height: 125px;
+    width: 100vw;
+    padding-top: 0;
+    position: relative;
+    left: 50%;
+    right: 50%;
+    margin-left: -50vw;
+    margin-right: -50vw;
+}
+.buttons2 {
+    display: flex; 
+    justify-content: flex-start;
+    flex-direction: column;
+}
+.buttons2 > ol {
+    display: flex;
+    flex-direction: row;
+    list-style-type: none; 
+    justify-content: space-evenly; 
+    padding: 0;
+}
+.buttons2 > ol > a {
+    height: 25px;
+    width: 80px;
+    background-color: #b4daa7;
+    font-size: large;
+    font-weight: bold;
+    text-decoration: none;
+    color: black;
+}
+.about-title {
+    display: flex;
+    justify-content: center;
+}
+.icons2 > nav {
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+    justify-content: center;
+    justify-content: space-evenly;
+    padding-top: 0;
+    padding-bottom: 20px;
+}
+#unoimg {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 23rem;
+    height: 15rem;
+}
+.educationBackground {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.main-school {
+    display: flex;
+    flex-direction: column;
+}
+.educationBackground > p {
+    margin-left: 20px;
+}
+.codeImg {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%; /* Change this line */
+    height: 200px;
+    width: 100vw;
+    padding-top: 0;
+    position: relative;
+    left: 50%;
+    right: 50%;
+    margin-left: -50vw;
+    margin-right: -50vw;  
+}
+.footerContent2-2 {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.footerContent2-2 > h3 {
+    display: flex;
+    justify-content: center;
+    padding-top: 20px;
+    margin-bottom: 0;
+}
+.footerContent2-2 > h4 {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 0;
+}
+.footerContent2-2 > p {
+    display: flex;
+    justify-content: center;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+.footerContent2-2 > nav {
+    display: flex;
+    justify-content: center;
+}
+/* Page 3: Projects */
+.body-project-page {
+    overflow-x: hidden;
+    background-color: #b4daa7;
+}
+.headerProject {
+    height: 125px;
+    width: 100vw;
+    padding-top: 0;
+    position: relative;
+    left: 50%;
+    right: 50%;
+    margin-left: -50vw;
+    margin-right: -50vw;
+}
+.buttonsProject {
+    display: flex; 
+    justify-content: flex-start;
+    flex-direction: column;
+}
+.buttonsProject > ol {
+    display: flex;
+    flex-direction: row;
+    list-style-type: none; 
+    justify-content: space-evenly; 
+    padding: 0;
+}
+.buttonsProject > ol > li > a {
+    height: 25px;
+    width: 80px;
+    background-color: #b4daa7;
+    font-size: large;
+    font-weight: bold;
+    text-decoration: none;
+    color: black;
+}
+.projectTitle {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+}
+.github-link > a > i {
+    display: flex;
+    justify-content: center;
+    font-size: 40px;
+    padding-bottom: 20px;
+}
+
+.projects {
+    display: flex;
+    flex-direction: column;
+}
+.project1 {
+    display: flex;
+    flex-direction: column;
+    background-color: beige;
+}
+.project1 > img {
+    width: 100%;
+    height: auto;
+}
+.project1-detail-body {
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;   
+}
+.project2 {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+    background-color: lightgrey;
+}
+.project2 > img {
+    width: 100%;
+    height: auto;
+}
+.project2-detail-body {
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.footerProject-2 {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.footerProject-2 > h3 {
+    display: flex;
+    justify-content: center;
+    padding-top: 20px;
+    margin-bottom: 0;
+}
+.footerProject-2 > h4 {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 0;
+}
+.footerProject-2 > p {
+    display: flex;
+    justify-content: center;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+.footerProject-2 > nav {
+    display: flex;
+    justify-content: center;
+}
+@media only screen and (min-width: 769px) {
+    .projects {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+    .project1 {
+        flex: 1;
+        margin: 30px;
+    } 
+    .project2 {
+        flex: 1;
+        margin: 30px;
+    }
+}
+/* page 4: Resume */
+.resume-body {
+    overflow-x: hidden;
+    background-color: #b4daa7;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+.headerAbout {
+    padding-bottom: 80px;
+}
+
+.resume-info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+    background-color: white;
+    margin-bottom: 0;
+    padding-top: 50px;
+    height: 250px;
+}
+.footerResume {
+    margin-top: auto;
+}
+.footerResume-2 {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.footerResume-2 > h3 {
+    display: flex;
+    justify-content: center;
+    padding-top: 20px;
+    margin-bottom: 0;
+}
+.footerResume-2 > h4 {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 0;
+}
+.footerResume-2 > p {
+    display: flex;
+    justify-content: center;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+.footerResume-2 > nav {
+    display: flex;
+    justify-content: center;
+}
+/* page 5: Contact */
+.bodyContact {
+    background-color: #b4daa7;
+    overflow-x: hidden;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+.header-contact {
+    height: 125px;
+    width: 100vw;
+    padding-top: 0;
+    position: relative;
+    left: 50%;
+    right: 50%;
+    margin-left: -50vw;
+    margin-right: -50vw;
+}
+.buttonsContact {
+    display: flex; 
+    justify-content: flex-start;
+    flex-direction: column;
+}
+.buttonsContact > ol {
+    display: flex;
+    flex-direction: row;
+    list-style-type: none; 
+    justify-content: space-evenly; 
+    padding: 0;
+}
+.buttonsContact > ol > li > a {
+    height: 25px;
+    width: 80px;
+    background-color: #b4daa7;
+    font-size: large;
+    font-weight: bold;
+    text-decoration: none;
+    color: black;
+}
+.contactTitle {
+    display: flex;
+    justify-content: center;
+}
+.contact {
+    background-color: bisque;
+    padding-bottom: 20px;
+    margin: 50px;
+}
+.contact1 {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.contact2 {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.footerContact-2 {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.footerContact-2 > h3 {
+    display: flex;
+    justify-content: center;
+    padding-top: 20px;
+    margin-bottom: 0;
+}
+.footerContact-2 > h4 {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 0;
+}
+.footerContact-2 > p {
+    display: flex;
+    justify-content: center;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+.footerContact-2 > nav {
+    display: flex;
+    justify-content: center;
+}
+
