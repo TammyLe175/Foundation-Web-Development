@@ -27,6 +27,11 @@ nav > a {
     color: black;
     
 }
+nav > a:hover {
+    color: white;
+    transform: scale(1.2);
+    transition: all 0.3s ease;
+}
 .buttons {
     display: flex; 
     justify-content: flex-start;
@@ -38,6 +43,9 @@ nav > a {
     list-style-type: none; 
     justify-content: space-evenly; 
     padding: 0;
+}
+.buttons > ol > li > a:hover {
+    color: white;
 }
 .buttons > ol > li > a {
     height: 25px;
@@ -72,6 +80,18 @@ nav > a {
     padding-bottom: 20px;
     margin-right: 10px;
 }
+@keyframes colorChange {
+    0% { color: red; }
+    50% { color: blue; }
+    100% { color: green; }
+}
+.name {
+    font-size: 50px;
+}
+.introduction1 > h1:hover {
+    animation: colorChange 1s infinite;
+}
+
 .section2 {
     display: flex;
     justify-content: space-evenly;
@@ -201,6 +221,9 @@ nav > a {
     text-decoration: none;
     color: black;
 }
+.buttons2 > ol > a:hover {
+    color: white;
+}
 .about-title {
     display: flex;
     justify-content: center;
@@ -308,6 +331,9 @@ nav > a {
     font-weight: bold;
     text-decoration: none;
     color: black;
+}
+.buttonsProject > ol > li > a:hover {
+    color: white;
 }
 .projectTitle {
     display: flex;
@@ -419,6 +445,11 @@ nav > a {
     margin-bottom: 0;
     padding-top: 50px;
     height: 250px;
+    transition: all 0.5s ease;
+}
+.resume-info:hover {
+    transform: scale(1.1);
+    
 }
 .footerResume {
     margin-top: auto;
@@ -488,6 +519,9 @@ nav > a {
     text-decoration: none;
     color: black;
 }
+.buttonsContact > ol > li > a:hover {
+    color: white;
+}
 .contactTitle {
     display: flex;
     justify-content: center;
@@ -496,6 +530,10 @@ nav > a {
     background-color: bisque;
     padding-bottom: 20px;
     margin: 50px;
+}
+.contact:hover {
+    transform: scale(1.1);
+    transition: all 0.5s ease;
 }
 .contact1 {
     display: flex;
